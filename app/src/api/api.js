@@ -27,7 +27,8 @@
       try {
         const _0x154008 = {
           ...(await this.generateHeaders(_0x44e85d)),
-          ..._0x939c00
+          ..._0x939c00,
+          'Allowed-State': 'na'  
         };
         a1_0x1f3274.info(_0x2b6370 + " : " + _0x258d33 + " " + (this.proxy ? this.proxy : ''));
         a1_0x1f3274.info("Request Header : " + JSON.stringify(_0x154008));
